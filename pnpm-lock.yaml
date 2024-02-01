@@ -27,8 +27,8 @@ dependencies:
     specifier: ^2.1.3
     version: 2.1.3(react@18.2.0)(svelte@3.59.2)(vue@3.3.7)
   class-variance-authority:
-    specifier: ^0.4.0
-    version: 0.4.0(typescript@4.9.5)
+    specifier: ^0.7.0
+    version: 0.7.0
   clsx:
     specifier: ^1.2.1
     version: 1.2.1
@@ -1526,15 +1526,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /class-variance-authority@0.4.0(typescript@4.9.5):
-    resolution: {integrity: sha512-74enNN8O9ZNieycac/y8FxqgyzZhZbxmCitAtAeUrLPlxjSd5zA7LfpprmxEcOmQBnaGs5hYhiSGnJ0mqrtBLQ==}
-    peerDependencies:
-      typescript: '>= 4.5.5 < 5'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
+  /class-variance-authority@0.7.0:
+    resolution: {integrity: sha512-jFI8IQw4hczaL4ALINxqLEXQbWcNjoSkloa4IaufXCJr6QawJyw7tuRysRsrE8w2p/4gGaxKIt/hX3qz/IbD1A==}
     dependencies:
-      typescript: 4.9.5
+      clsx: 2.0.0
     dev: false
 
   /client-only@0.0.1:
@@ -1552,6 +1547,11 @@ packages:
 
   /clsx@1.2.1:
     resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /clsx@2.0.0:
+    resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
     engines: {node: '>=6'}
     dev: false
 
