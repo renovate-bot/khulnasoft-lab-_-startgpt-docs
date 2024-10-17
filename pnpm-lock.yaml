@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.13.0
     version: 2.13.0
   '@types/node':
-    specifier: 18.19.10
-    version: 18.19.10
+    specifier: 18.19.56
+    version: 18.19.56
   '@types/react':
     specifier: 18.0.30
     version: 18.0.30
@@ -983,8 +983,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@18.19.10:
-    resolution: {integrity: sha512-IZD8kAM02AW1HRDTPOlz3npFava678pr8Ie9Vp8uRhBROXAv8MXT2pCnGZZAKYdromsNQLHQcfWQ6EOatVLtqA==}
+  /@types/node@18.19.56:
+    resolution: {integrity: sha512-4EMJlWwwGnVPflJAtM14p9eVSa6BOv5b92mCsh5zcM1UagNtEtrbbtaE6WE1tw2TabavatnwqXjlIpcAEuJJNg==}
     dependencies:
       undici-types: 5.26.5
     dev: false
@@ -1021,7 +1021,7 @@ packages:
   /@types/websocket@1.0.5:
     resolution: {integrity: sha512-NbsqiNX9CnEfC1Z0Vf4mE1SgAJ07JnRYcNex7AJ9zAVzmiGHmjKFEk7O4TJIsgv2B1sLEb6owKFZrACwdYngsQ==}
     dependencies:
-      '@types/node': 18.19.10
+      '@types/node': 18.19.56
     dev: false
 
   /@types/yargs-parser@21.0.0:
